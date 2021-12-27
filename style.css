@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    background-color: rgb(223, 236, 223);
+}
+nav .nav-bar{
+    width: 100%;
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+.nav-bar .logo img{
+    width: 22%;
+}
+.nav-bar .icons ul{
+    display: flex;
+}
+.nav-bar .icons ul li{
+    margin-left: 55px;
+}
+.nav-bar .icons ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.cover{
+    width: 100%;
+    background-color: rgb(223, 236, 223);
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+.row .cp-1{
+    padding-top: 45px;
+}
+.row .cp-1 #p-1{
+    color: red;
+    font-size: 16px;
+    font-weight: 700;
+}
+.row .cp-1 #p-2{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+}
+.row .cp-1 #p-2 span{
+    color: green;
+}
+.row .cp-1 #p-3{
+    line-height: 32px;
+    color: grey;
+    padding-bottom: 10px;
+}
+.row .cp-1 .c-btn{
+    padding: 9px 22px;
+    background-color: green;
+    color: white;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 30px;
+}
+
+
+
+.middle{
+    width: 100%;
+    padding-top: 7%;
+    padding-bottom: 3%;
+}
+.middle .row{
+    text-align: center;
+}
+.middle .row #shadow{
+    width: 15%;
+    box-shadow: 1px 1px 18px rgb(202, 192, 192);
+}
+.middle .row p{
+    color: grey;
+}
+.middle .row .m-1{
+    padding-top: 20px;
+}
+.middle .row .m-2{
+    padding-top: 20px;
+}
+.middle .row .m-3{
+    padding-top: 16px;
+}
+.middle .row .m-4{
+    padding-top: 8px;
+}
+.middle .add{
+    text-align: center;
+    padding-top: 8%;
+}
+
+
+
+.card{
+    width: 100%;
+    border: none;
+    padding-bottom: 4%;
+}
+.card .row #c-1, #c-2, #c-3{
+    padding: 25px 0px 20px 22px;
+    border-radius: 8px;
+    margin-left: px;
+    box-shadow: 1px 1px 25px grey;
+}
+.card .row .body{
+    margin-top: 15px;
+}
+.card .row .body h3{
+    color: black;
+}
+.card .row .body p{
+    color: grey;
+    font-size: 18px;
+}
+.card .row .body button{
+    color: white;
+    padding: 9px 22px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 30px;
+    background-color: green;
+}
+.card .row .footer{
+    display: flex;
+    margin-top: 35px;
+}
+.card .row .footer .left{
+    display: flex;
+}
+.card .row .footer .left .l-left{
+    color: rgb(73, 68, 68);
+    margin-left: 10px;
+    padding-top: 3px;
+    text-align: center;
+}
+.card .row .footer .right{
+    display: flex;
+    margin-left: 120px;
+}
+.card .row .footer .right .r-right{
+    color: rgb(73, 68, 68);
+    margin-left: 10px;
+    padding-top: 3px;
+    text-align: center;
+}
+
+
+.bio{
+    color: black;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+
+
+.bios{
+    width: 100%;
+    margin-bottom: 4%;
+}
+.bios .row{
+    text-align: right;
+}
+.bios .row #details{
+    color: rgb(53, 50, 50);
+    font-weight: bold;
+    padding-left: 5%;
+    padding-right: 24%;
+    text-align: left;
+    padding-top: 15px;
+}
+
+
+
+footer{
+    background-color: rgb(39, 34, 34);
+}
+footer .row{
+    padding-top: 4%;
+}
+footer .row .upper{
+    color: white;
+}
+footer .row .foot li h6{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+footer .row .foot ul li{
+    list-style: none;
+    padding-right: 25px;
+}
+footer .row .foot ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer .l-footer{
+    color: white;
+    text-align: center;
+    padding-top: 8%;
+}
